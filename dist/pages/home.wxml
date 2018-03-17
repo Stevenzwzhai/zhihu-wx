@@ -1,0 +1,52 @@
+
+    <view class="home-page">
+        
+    <view class="zh-nav">
+        <view class="nav-home">
+            <view class="option" bindtap="$nav$showSlide">
+                <image src="{{$nav$homeSrc}}"/>
+            </view>
+            <view class="title">{{$nav$navTitle}}</view>
+        </view>
+        <view class="nav-detail">
+
+        </view>
+    </view>
+
+        <view class="scroll">
+            
+    <view class="zh-slide" bindtap="$slide$close" wx:if="{{slidePop}}">
+        <view class="slide-left" catchtap="$slide$">
+            <view class="header"/>
+            <view class="slide-list">
+                <block wx:for="{{$slide$titleList}}" wx:for-index="$slide$index" wx:for-item="$slide$item" wx:key="$slide$index">
+                    <view class="list-item">
+                        {{$slide$item.name}}
+                        <view class="add-fa"/>
+                    </view>
+                </block>
+            </view>
+        </view>
+    </view>
+
+            <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+                <block wx:for="{{imageUrls}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+                    <swiper-item>
+                        <view class="topic-img-item">
+                            <view class="mask"/>
+                            <text>{{item.title}}</text>
+                            <image src="{{item.image}}" class="topic-img"/>
+                        </view>
+                    </swiper-item>
+                </block>
+            </swiper>
+            <view class="news-list">
+                <block wx:for="{{newsList}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+                    <view class="news-item">
+                        <text>{{item.title}}</text>
+                        <image src="{{item.images[0]}}"/>
+                    </view>
+                </block>
+            </view>
+        </view>
+    </view>

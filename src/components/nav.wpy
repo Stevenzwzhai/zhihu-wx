@@ -1,0 +1,60 @@
+<template>
+    <view class="zh-nav">
+        <view class="nav-home">
+            <view class="option" @tap="showSlide">
+                <image src="{{homeSrc}}"></image>
+            </view>
+            <view class="title">{{navTitle}}</view>
+        </view>
+        <view class="nav-detail">
+
+        </view>
+    </view>
+</template>
+<script>
+    import wepy from 'wepy'
+//    import 'wepy-async-function'
+    export default class extends wepy.component {
+        data = {
+            homeSrc: '../access/images/catalog.svg',
+            navTitle: '首页'
+        }
+
+        methods = {
+            showSlide() {
+                this.$emit('showSlide');
+            }
+        }
+    }
+</script>
+<style lang="less">
+    @import '../style/style.less';
+    .zh-nav{
+        color: #fff;
+        padding: 0 20rpx;
+        height: 100rpx;
+        background-color:@primary;
+        position: absolute;
+        top: 0;
+        width:100%;
+        z-index:999;
+        .nav-home{
+            line-height: 100rpx;
+            height:100%;
+            display: flex;
+            image{
+                height:48rpx;
+                width:48rpx;
+            }
+            .option{
+                display: flex;
+                align-items: center;
+                height: 100%;
+                width: 100rpx;
+            }
+            .title{
+                margin-left: 20rpx;
+            }
+        }
+    }
+</style>

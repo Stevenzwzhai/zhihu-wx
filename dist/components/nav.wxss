@@ -1,0 +1,1 @@
+.zh-nav{color:#fff;padding:0 20rpx;height:100rpx;background-color:#008bed;position:absolute;top:0;width:100%;z-index:999}.zh-nav .nav-home{line-height:100rpx;height:100%;display:flex}.zh-nav .nav-home image{height:48rpx;width:48rpx}.zh-nav .nav-home .option{display:flex;align-items:center;height:100%;width:100rpx}.zh-nav .nav-home .title{margin-left:20rpx}

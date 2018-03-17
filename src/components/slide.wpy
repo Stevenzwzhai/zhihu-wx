@@ -1,0 +1,79 @@
+<template>
+    <view class="zh-slide" @tap="close">
+        <view class="slide-left" @tap.stop="">
+            <view class="header"></view>
+            <view class="slide-list">
+                <repeat for="{{titleList}}" key="index" index="index" item="item">
+                    <view class="list-item">
+                        {{item.name}}
+                        <view class="add-fa"></view>
+                    </view>
+                </repeat>
+            </view>
+        </view>
+    </view>
+</template>
+<script>
+    import wepy from 'wepy'
+    export default class extends wepy.component{
+        data = {
+            titleList: []
+        }
+        onLoad () {
+            wepy.request('http://news-at.zhihu.com/api/4/themes')
+                .then(res => {
+                    this.titleList = res.data.others;
+                    this.$apply();
+                })
+        }
+        methods = {
+            close() {
+                this.$emit('closeSlide')
+            }
+        }
+    }
+</script>
+<style lang="less">
+    @import '../style/style.less';
+    .zh-slide{
+        background-color: rgba(0, 0, 0, 0.3);
+        height:100%;
+        width: 100%;
+        position:absolute;
+        top:0;
+        @keyframes slide{
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0%);
+            }
+        }
+        .slide-left{
+            overflow-y: scroll;
+            height:100%;
+            width: 70%;
+            background-color: #fff;
+            transform: translateX(0%);
+            animation: slide .5s linear;
+            .header{
+                height:150rpx;
+                width:100%;
+                background-color: @primary;
+            }
+            .slide-list{
+                padding-left:18rpx;
+                .list-item{
+                    height:96rpx;
+                    line-height: 96rpx;
+                    .add-fa{
+                        height:36rpx;
+                        width:36rpx;
+                        background-image: url('../access/images/add-fa.svg') no-repeat;
+                        background-size:100%;
+                    }
+                }
+            }
+        }
+    }
+</style>

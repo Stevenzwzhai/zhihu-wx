@@ -1,0 +1,124 @@
+<template>
+    <view class="home-page">
+        <nav></nav>
+        <view class="scroll">
+            <slide wx:if="{{slidePop}}"></slide>
+            <swiper indicator-dots="true"
+                    autoplay="true" interval="5000" duration="1000">
+                <repeat for="{{imageUrls}}" key="index" index="index" item="item">
+                    <swiper-item>
+                        <view class="topic-img-item">
+                            <view class="mask"></view>
+                            <text>{{item.title}}</text>
+                            <image src="{{item.image}}" class="slide-image" class="topic-img"/>
+                        </view>
+                    </swiper-item>
+                </repeat>
+            </swiper>
+            <view class="news-list">
+                <repeat for="{{newsList}}" key="index" index="index" item="item">
+                    <view class="news-item">
+                        <text>{{item.title}}</text>
+                        <image src="{{item.images[0]}}"></image>
+                    </view>
+                </repeat>
+            </view>
+        </view>
+    </view>
+</template>
+<script>
+    import wepy from 'wepy'
+    import nav from '../components/nav'
+    import slide from '../components/slide'
+    export default class extends wepy.page {
+        config = {
+
+        }
+        data = {
+            slidePop: false,
+            imageUrls: [],
+            newsList: []
+        }
+        components = {
+            nav,
+            slide
+        }
+        events = {
+            showSlide() {
+                console.log('show')
+                this.slidePop = true;
+                this.$apply();
+            },
+            closeSlide() {
+                this.slidePop = false;
+                this.$apply();
+            }
+        }
+        onLoad() {
+            wepy.request('http://news-at.zhihu.com/api/4/news/latest')
+                .then(res => {
+                    console.log(res)
+                    this.imageUrls = res.data.top_stories;
+                    this.newsList = res.data.stories;
+                    console.log(this.imageUrls)
+                    this.$apply();
+                })
+        }
+    }
+</script>
+<style lang="less">
+    .home-page{
+        background-color: #ffdddd;
+        height:100%;
+        position:relative;
+        .scroll{
+            overflow: scroll;
+            height:100%;
+            /*position:absolute;*/
+            /*width: 100%;*/
+            top: 0;
+            padding-top: 100rpx;
+        }
+        swiper{
+            height:600rpx;
+        }
+        .topic-img-item{
+            position:relative;
+            text{
+                position:absolute;
+                bottom:50rpx;
+                left:30rpx;
+                font-size: 40rpx;
+                color:#fff;
+            }
+            .mask{
+                position:absolute;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+        .topic-img{
+            width:100%;
+            height:600rpx;
+        }
+        .news-list{
+            padding: 0 20rpx;
+            .news-item{
+                background-color: #fff;
+                height:160rpx;
+                margin-top: 20rpx;
+                display: flex;
+                padding:20rpx;
+                text{
+                    padding-right: 20rpx;
+                    flex: 1;
+                }
+                image{
+                    width:120rpx;
+                    height:120rpx;
+                }
+            }
+        }
+    }
+</style>
