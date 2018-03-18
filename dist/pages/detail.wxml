@@ -1,0 +1,5 @@
+
+    <view class="zh-detail">
+        <import src="../wxParse/wxParse.wxml"/>
+        <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+    </view>

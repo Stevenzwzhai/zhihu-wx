@@ -45,7 +45,7 @@
                     <view class="news-list">
                         <text class="list-title">{{newsList.title}}</text>
                         <block wx:for="{{newsList.list}}" wx:for-index="index" wx:for-item="item" wx:key="index">
-                            <view class="news-item">
+                            <view class="news-item" data-tindex="{{newsIndex}}" data-index="{{index}}" bindtap="goDetail">
                                 <text>{{item.title}}</text>
                                 <image src="{{item.images[0]}}"/>
                             </view>

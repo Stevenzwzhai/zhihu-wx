@@ -1,0 +1,25 @@
+<template>
+    <view class="zh-detail">
+        <import src="../wxParse/wxParse.wxml"/>
+        <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+    </view>
+</template>
+<script>
+    import wepy from 'wepy'
+    import WxParse from '../wxParse/wxParse'
+    export default class extends wepy.page {
+        data = {
+            content: ""
+        }
+        onLoad(option) {
+            console.log(option)
+            wepy.request(`http://news-at.zhihu.com/api/4/news/${option.id}`)
+                .then(res => {
+                    console.log(res)
+                    this.content = res.data.body
+                    let self = this
+                    WxParse.wxParse('content', 'html', self.content, self, 5)
+                })
+        }
+    }
+</script>

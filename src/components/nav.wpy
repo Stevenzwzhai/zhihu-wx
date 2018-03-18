@@ -16,8 +16,13 @@
 //    import 'wepy-async-function'
     export default class extends wepy.component {
         data = {
-            homeSrc: '../access/images/catalog.svg',
-            navTitle: '首页'
+            homeSrc: '../access/images/catalog.svg'
+        }
+        props = {
+            navTitle: {
+                type: String,
+                default: '首页'
+            }
         }
 
         methods = {

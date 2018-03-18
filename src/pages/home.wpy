@@ -1,6 +1,6 @@
 <template>
     <view class="home-page">
-        <nav></nav>
+        <nav :navTitle="navTitle"></nav>
         <slide wx:if="{{slidePop}}"></slide>
         <scroll-view wx:if="{{!theamType}}" class="scroll" scroll-y @scrolltolower="loadMore" scroll-with-animation="true">
             <view>
@@ -20,7 +20,7 @@
                     <view class="news-list">
                         <text class="list-title">{{newsList.title}}</text>
                         <repeat for="{{newsList.list}}" key="index" index="index" item="item">
-                            <view class="news-item">
+                            <view class="news-item" data-tindex="{{newsIndex}}" data-index="{{index}}" @tap="goDetail">
                                 <text>{{item.title}}</text>
                                 <image src="{{item.images[0]}}"></image>
                             </view>
@@ -68,6 +68,7 @@
 
         }
         data = {
+            navTitle: '首页',
             theamType: false,
             slidePop: false,
             imageUrls: [],
@@ -89,11 +90,11 @@
                 this.$apply();
             },
             closeSlide(item) {
-                console.log(2, item)
                 if(item){
                     wepy.request(`http://news-at.zhihu.com/api/4/theme/${item.id}`)
                         .then(res => {
                             this.theamType = true;
+                            this.navTitle = item.name
                             this.theamNews = {
                                 bg:[{
                                     image: res.data.background,
@@ -122,11 +123,12 @@
                 })
         }
         methods = {
-            getMoreList() {
-
-            },
-            getList() {
-                console.log(123123)
+            goDetail($event) {
+                let item = this.newsTypeList[$event.currentTarget.dataset.tindex].list[$event.currentTarget.dataset.index]
+                console.log(item);
+                wepy.navigateTo({
+                    url: `detail?id=${item.id}`
+                })
             },
             loadMore() {
 //                this.getMoreList();
