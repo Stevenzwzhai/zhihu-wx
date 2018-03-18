@@ -1,43 +1,83 @@
 <template>
     <view class="home-page">
         <nav></nav>
-        <view class="scroll">
-            <slide wx:if="{{slidePop}}"></slide>
-            <swiper indicator-dots="true"
-                    autoplay="true" interval="5000" duration="1000">
-                <repeat for="{{imageUrls}}" key="index" index="index" item="item">
-                    <swiper-item>
-                        <view class="topic-img-item">
-                            <view class="mask"></view>
-                            <text>{{item.title}}</text>
-                            <image src="{{item.image}}" class="slide-image" class="topic-img"/>
-                        </view>
-                    </swiper-item>
-                </repeat>
-            </swiper>
-            <view class="news-list">
-                <repeat for="{{newsList}}" key="index" index="index" item="item">
-                    <view class="news-item">
-                        <text>{{item.title}}</text>
-                        <image src="{{item.images[0]}}"></image>
+        <slide wx:if="{{slidePop}}"></slide>
+        <scroll-view wx:if="{{!theamType}}" class="scroll" scroll-y @scrolltolower="loadMore" scroll-with-animation="true">
+            <view>
+                <swiper indicator-dots="true"
+                        autoplay="true" interval="5000" duration="1000">
+                    <repeat for="{{imageUrls}}" key="index" index="index" item="item">
+                        <swiper-item>
+                            <view class="topic-img-item">
+                                <view class="mask"></view>
+                                <text>{{item.title}}</text>
+                                <image src="{{item.image}}" class="slide-image" class="topic-img"/>
+                            </view>
+                        </swiper-item>
+                    </repeat>
+                </swiper>
+                <repeat for="{{newsTypeList}}" key="newsIndex" index="newsIndex" item="newsList">
+                    <view class="news-list">
+                        <text class="list-title">{{newsList.title}}</text>
+                        <repeat for="{{newsList.list}}" key="index" index="index" item="item">
+                            <view class="news-item">
+                                <text>{{item.title}}</text>
+                                <image src="{{item.images[0]}}"></image>
+                            </view>
+                        </repeat>
                     </view>
                 </repeat>
             </view>
-        </view>
+        </scroll-view>
+        <scroll-view wx:else class="scroll" scroll-y @scrolltolower="loadMore" scroll-with-animation="true">
+            <view>
+                <swiper indicator-dots="true"
+                        autoplay="true" interval="5000" duration="1000">
+                    <repeat for="{{theamNews.bg}}" key="index" index="index" item="item">
+                        <swiper-item>
+                            <view class="topic-img-item">
+                                <view class="mask"></view>
+                                <text>{{item.title}}</text>
+                                <image src="{{item.image}}" class="slide-image" class="topic-img"/>
+                            </view>
+                        </swiper-item>
+                    </repeat>
+                </swiper>
+                <view class="author-info">
+                    <text>{{theamNews.author}}</text>
+                    <image src="{{theamNews.authorImg}}" class="author-img"></image>
+                </view>
+                <view class="news-list">
+                    <repeat for="{{theamNews.list}}" key="index" index="index" item="item">
+                        <view class="news-item">
+                            <text>{{item.title}}</text>
+                        </view>
+                    </repeat>
+                </view>
+            </view>
+        </scroll-view>
     </view>
 </template>
 <script>
     import wepy from 'wepy'
     import nav from '../components/nav'
     import slide from '../components/slide'
+    import utils from '../utils'
     export default class extends wepy.page {
         config = {
 
         }
         data = {
+            theamType: false,
             slidePop: false,
             imageUrls: [],
-            newsList: []
+            newsList: [],
+            newsTypeList: [{
+                title: '今日新闻',
+                list: []
+            }],
+            currentDate: new Date(),
+            theamNews: {}
         }
         components = {
             nav,
@@ -45,11 +85,30 @@
         }
         events = {
             showSlide() {
-                console.log('show')
                 this.slidePop = true;
                 this.$apply();
             },
-            closeSlide() {
+            closeSlide(item) {
+                console.log(2, item)
+                if(item){
+                    wepy.request(`http://news-at.zhihu.com/api/4/theme/${item.id}`)
+                        .then(res => {
+                            this.theamType = true;
+                            this.theamNews = {
+                                bg:[{
+                                    image: res.data.background,
+                                    title: res.data.description
+                                }],
+                                author: res.data.editors[0].name,
+                                authorImg: res.data.editors[0].avatar,
+                                list: res.data.stories
+                            }
+                            this.$apply();
+                        })
+                }
+//                if(item){
+//                    console.log(item)
+//                }
                 this.slidePop = false;
                 this.$apply();
             }
@@ -57,27 +116,50 @@
         onLoad() {
             wepy.request('http://news-at.zhihu.com/api/4/news/latest')
                 .then(res => {
-                    console.log(res)
                     this.imageUrls = res.data.top_stories;
-                    this.newsList = res.data.stories;
-                    console.log(this.imageUrls)
+                    this.newsTypeList[0].list = res.data.stories;
                     this.$apply();
                 })
+        }
+        methods = {
+            getMoreList() {
+
+            },
+            getList() {
+                console.log(123123)
+            },
+            loadMore() {
+//                this.getMoreList();
+                utils.debounce(() => {
+                    let date = new Date(new Date().setDate(this.currentDate.getDate()-1));
+                    if(this.newsTypeList.find(item => item.title==utils.getDate(date))){
+                        return;
+                    }
+                    wepy.request(`http://news.at.zhihu.com/api/4/news/before/${utils.getDate(date)}`)
+                        .then(res => {
+                            console.log(res)
+                            this.newsTypeList.push({
+                                title: utils.getDate(date),
+                                list: res.data.stories
+                            })
+                            this.currentDate = date;
+                            this.$apply();
+                        })
+                }, 3000)()
+            }
         }
     }
 </script>
 <style lang="less">
     .home-page{
-        background-color: #ffdddd;
+        background-color: #eee;
         height:100%;
         position:relative;
         .scroll{
             overflow: scroll;
             height:100%;
-            /*position:absolute;*/
-            /*width: 100%;*/
-            top: 0;
             padding-top: 100rpx;
+            box-sizing: border-box;
         }
         swiper{
             height:600rpx;
@@ -95,7 +177,7 @@
                 position:absolute;
                 height: 100%;
                 width: 100%;
-                background-color: rgba(0, 0, 0, 0.1);
+                background-color: rgba(0, 0, 0, 0.3);
             }
         }
         .topic-img{
@@ -103,8 +185,10 @@
             height:600rpx;
         }
         .news-list{
-            padding: 0 20rpx;
+            padding: 10rpx 20rpx;
             .news-item{
+                border-radius: 8rpx;
+                box-shadow: 1rpx 1rpx 1rpx 1rpx #ccc;
                 background-color: #fff;
                 height:160rpx;
                 margin-top: 20rpx;
@@ -118,6 +202,21 @@
                     width:120rpx;
                     height:120rpx;
                 }
+            }
+        }
+        .author-info{
+            margin-top:10rpx;
+            text{
+                height:80rpx;
+                line-height: 80rpx;
+                display:inline-block;
+                vertical-align: top;
+                margin: 0 20rpx;
+            }
+            .author-img{
+                height:80rpx;
+                width: 80rpx;
+                border-radius: 40rpx;
             }
         }
     }

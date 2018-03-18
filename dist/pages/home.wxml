@@ -13,14 +13,13 @@
         </view>
     </view>
 
-        <view class="scroll">
-            
+        
     <view class="zh-slide" bindtap="$slide$close" wx:if="{{slidePop}}">
         <view class="slide-left" catchtap="$slide$">
             <view class="header"/>
             <view class="slide-list">
                 <block wx:for="{{$slide$titleList}}" wx:for-index="$slide$index" wx:for-item="$slide$item" wx:key="$slide$index">
-                    <view class="list-item">
+                    <view class="list-item" data-index="{{$slide$index}}" bindtap="$slide$getTeamNews">
                         {{$slide$item.name}}
                         <view class="add-fa"/>
                     </view>
@@ -29,24 +28,56 @@
         </view>
     </view>
 
-            <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000">
-                <block wx:for="{{imageUrls}}" wx:for-index="index" wx:for-item="item" wx:key="index">
-                    <swiper-item>
-                        <view class="topic-img-item">
-                            <view class="mask"/>
-                            <text>{{item.title}}</text>
-                            <image src="{{item.image}}" class="topic-img"/>
-                        </view>
-                    </swiper-item>
-                </block>
-            </swiper>
-            <view class="news-list">
-                <block wx:for="{{newsList}}" wx:for-index="index" wx:for-item="item" wx:key="index">
-                    <view class="news-item">
-                        <text>{{item.title}}</text>
-                        <image src="{{item.images[0]}}"/>
+        <scroll-view  wx:if="{{!theamType}}" class="scroll" scroll-y bindscrolltolower="loadMore" scroll-with-animation="true">
+            <view>
+                <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+                    <block wx:for="{{imageUrls}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+                        <swiper-item>
+                            <view class="topic-img-item">
+                                <view class="mask"/>
+                                <text>{{item.title}}</text>
+                                <image src="{{item.image}}" class="topic-img"/>
+                            </view>
+                        </swiper-item>
+                    </block>
+                </swiper>
+                <block wx:for="{{newsTypeList}}" wx:for-index="newsIndex" wx:for-item="newsList" wx:key="newsIndex">
+                    <view class="news-list">
+                        <text class="list-title">{{newsList.title}}</text>
+                        <block wx:for="{{newsList.list}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+                            <view class="news-item">
+                                <text>{{item.title}}</text>
+                                <image src="{{item.images[0]}}"/>
+                            </view>
+                        </block>
                     </view>
                 </block>
             </view>
-        </view>
+        </scroll-view>
+        <scroll-view wx:else class="scroll" scroll-y bindscrolltolower="loadMore" scroll-with-animation="true">
+            <view>
+                <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+                    <block wx:for="{{theamNews.bg}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+                        <swiper-item>
+                            <view class="topic-img-item">
+                                <view class="mask"/>
+                                <text>{{item.title}}</text>
+                                <image src="{{item.image}}" class="topic-img"/>
+                            </view>
+                        </swiper-item>
+                    </block>
+                </swiper>
+                <view class="author-info">
+                    <text>{{theamNews.author}}</text>
+                    <image src="{{theamNews.authorImg}}" class="author-img"/>
+                </view>
+                <view class="news-list">
+                    <block wx:for="{{theamNews.list}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+                        <view class="news-item">
+                            <text>{{item.title}}</text>
+                        </view>
+                    </block>
+                </view>
+            </view>
+        </scroll-view>
     </view>

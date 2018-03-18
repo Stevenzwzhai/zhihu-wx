@@ -4,7 +4,7 @@
             <view class="header"></view>
             <view class="slide-list">
                 <repeat for="{{titleList}}" key="index" index="index" item="item">
-                    <view class="list-item">
+                    <view class="list-item" data-index="{{index}}" @tap="getTeamNews">
                         {{item.name}}
                         <view class="add-fa"></view>
                     </view>
@@ -29,6 +29,10 @@
         methods = {
             close() {
                 this.$emit('closeSlide')
+            },
+            getTeamNews($event) {
+                console.log(1, $event)
+                this.$emit('closeSlide', this.titleList[$event.currentTarget.dataset.index])
             }
         }
     }
@@ -40,6 +44,7 @@
         height:100%;
         width: 100%;
         position:absolute;
+        z-index: 1000;
         top:0;
         @keyframes slide{
             0% {
