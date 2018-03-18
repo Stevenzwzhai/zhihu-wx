@@ -2,208 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d90d2268-37c2-4f61-8a1b-965b21a64dd5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.wepycache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/access/images/add-fa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/access/images/catalog.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/access/images/未确认 863535.crdownload" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/access/images/未确认 946897.crdownload" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/api/doc.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/counter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/counter.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/group.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/groupitem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/groupitem.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/list.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/nav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/nav.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/panel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/panel.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/slide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/slide.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/mixins/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/promise-polyfill/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/regenerator-runtime/runtime.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy-async-function/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy-async-function/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy-com-toast/toast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy-com-toast/toast.wxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy-com-toast/toast.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy/lib/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy/lib/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy/lib/component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy/lib/event.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy/lib/mixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy/lib/native.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy/lib/page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy/lib/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/npm/wepy/lib/wepy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/detail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/detail.wxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/home.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/home.wxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/home.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/index.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/index.wxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/index.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/project.config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/style/style.wxss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/utils/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/00.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/01.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/02.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/03.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/04.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/05.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/06.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/07.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/08.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/09.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/100.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/101.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/102.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/103.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/104.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/105.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/106.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/107.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/108.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/109.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/110.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/111.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/112.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/113.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/114.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/115.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/116.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/117.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/118.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/119.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/120.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/121.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/122.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/123.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/124.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/125.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/126.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/127.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/128.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/129.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/130.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/131.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/132.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/133.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/134.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/72.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/73.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/74.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/75.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/76.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/77.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/78.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/79.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/80.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/81.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/82.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/83.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/84.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/85.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/86.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/87.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/88.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/89.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/90.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/91.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/92.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/93.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/94.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/95.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/96.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/97.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/98.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/emojis/99.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/html2json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/htmlparser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/showdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/wxDiscode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/wxParse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/wxParse.wxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/wxParse/wxParse.wxss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.wpy" afterPath="$PROJECT_DIR$/src/app.wpy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nav.wpy" afterPath="$PROJECT_DIR$/src/components/nav.wpy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/detail.wpy" afterPath="$PROJECT_DIR$/src/pages/detail.wpy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home.wpy" afterPath="$PROJECT_DIR$/src/pages/home.wpy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -259,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="235">
               <caret line="116" column="72" lean-forward="true" selection-start-line="116" selection-start-column="72" selection-end-line="116" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -313,24 +123,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slide.wpy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/slide.wpy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>conso</find>
       <find>$createApp</find>
-      <find>App</find>
       <find>getMoreList</find>
+      <find>App</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/dist</dir>
@@ -352,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/pages/home.wpy" />
         <option value="$PROJECT_DIR$/src/pages/detail.wpy" />
         <option value="$PROJECT_DIR$/dist/app.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -510,12 +311,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521300964904</updated>
-      <workItem from="1521300966063" duration="12093000" />
+      <workItem from="1521300966063" duration="12295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12093000" />
+    <option name="totallyTimeSpent" value="12295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -683,6 +484,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="116" column="72" lean-forward="true" selection-start-line="116" selection-start-column="72" selection-end-line="116" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
