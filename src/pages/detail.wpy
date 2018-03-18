@@ -13,7 +13,7 @@
         }
         onLoad(option) {
             console.log(option)
-            wepy.request(`http://news-at.zhihu.com/api/4/news/${option.id}`)
+            wepy.request(`https://news-at.zhihu.com/api/4/news/${option.id}`)
                 .then(res => {
                     console.log(res)
                     this.content = res.data.body
@@ -23,3 +23,9 @@
         }
     }
 </script>
+<style>
+    .zh-detail{
+        height:100%;
+        overflow: scroll;
+    }
+</style>

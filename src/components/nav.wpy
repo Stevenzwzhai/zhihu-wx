@@ -4,7 +4,7 @@
             <view class="option" @tap="showSlide">
                 <image src="{{homeSrc}}"></image>
             </view>
-            <view class="title">{{navTitle}}</view>
+            <view class="title" @tap="goHome">{{navTitle}}</view>
         </view>
         <view class="nav-detail">
 
@@ -27,7 +27,10 @@
 
         methods = {
             showSlide() {
-                this.$emit('showSlide');
+                this.$emit('showSlide')
+            },
+            goHome() {
+                this.$emit('goHome')
             }
         }
     }

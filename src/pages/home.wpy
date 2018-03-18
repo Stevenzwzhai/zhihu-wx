@@ -1,6 +1,6 @@
 <template>
     <view class="home-page">
-        <nav :navTitle="navTitle"></nav>
+        <nav></nav>
         <slide wx:if="{{slidePop}}"></slide>
         <scroll-view wx:if="{{!theamType}}" class="scroll" scroll-y @scrolltolower="loadMore" scroll-with-animation="true">
             <view>
@@ -49,7 +49,7 @@
                 </view>
                 <view class="news-list">
                     <repeat for="{{theamNews.list}}" key="index" index="index" item="item">
-                        <view class="news-item">
+                        <view class="news-item" data-index="{{index}}" @tap="goCDetail">
                             <text>{{item.title}}</text>
                         </view>
                     </repeat>
@@ -65,7 +65,6 @@
     import utils from '../utils'
     export default class extends wepy.page {
         config = {
-
         }
         data = {
             navTitle: '首页',
@@ -85,15 +84,21 @@
             slide
         }
         events = {
+            goHome(){
+                console.log('home')
+                this.theamType = false
+                this.$apply();
+            },
             showSlide() {
                 this.slidePop = true;
                 this.$apply();
             },
             closeSlide(item) {
+                console.log(item)
                 if(item){
                     wepy.request(`https://news-at.zhihu.com/api/4/theme/${item.id}`)
                         .then(res => {
-                            this.theamType = true;
+                            this.theamType = true
                             this.navTitle = item.name
                             this.theamNews = {
                                 bg:[{
@@ -107,9 +112,6 @@
                             this.$apply();
                         })
                 }
-//                if(item){
-//                    console.log(item)
-//                }
                 this.slidePop = false;
                 this.$apply();
             }
@@ -129,6 +131,13 @@
                 wepy.navigateTo({
                     url: `detail?id=${item.id}`
                 })
+            },
+            goCDetail($event) {
+//                let item = this.theamNews.list[$event.currentTarget.dataset.index]
+//                console.log(item);
+//                wepy.navigateTo({
+//                    url: `detail?id=${item.id}`
+//                })
             },
             loadMore() {
 //                this.getMoreList();
