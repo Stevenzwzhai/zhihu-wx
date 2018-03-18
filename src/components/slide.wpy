@@ -20,7 +20,7 @@
             titleList: []
         }
         onLoad () {
-            wepy.request('http://news-at.zhihu.com/api/4/themes')
+            wepy.request('https://news-at.zhihu.com/api/4/themes')
                 .then(res => {
                     this.titleList = res.data.others;
                     this.$apply();

@@ -91,7 +91,7 @@
             },
             closeSlide(item) {
                 if(item){
-                    wepy.request(`http://news-at.zhihu.com/api/4/theme/${item.id}`)
+                    wepy.request(`https://news-at.zhihu.com/api/4/theme/${item.id}`)
                         .then(res => {
                             this.theamType = true;
                             this.navTitle = item.name
@@ -115,7 +115,7 @@
             }
         }
         onLoad() {
-            wepy.request('http://news-at.zhihu.com/api/4/news/latest')
+            wepy.request('https://news-at.zhihu.com/api/4/news/latest')
                 .then(res => {
                     this.imageUrls = res.data.top_stories;
                     this.newsTypeList[0].list = res.data.stories;
@@ -137,7 +137,7 @@
                     if(this.newsTypeList.find(item => item.title==utils.getDate(date))){
                         return;
                     }
-                    wepy.request(`http://news.at.zhihu.com/api/4/news/before/${utils.getDate(date)}`)
+                    wepy.request(`https://news.at.zhihu.com/api/4/news/before/${utils.getDate(date)}`)
                         .then(res => {
                             console.log(res)
                             this.newsTypeList.push({

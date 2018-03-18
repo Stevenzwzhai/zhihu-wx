@@ -2,164 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d90d2268-37c2-4f61-8a1b-965b21a64dd5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/00.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/08.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/100.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/101.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/102.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/103.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/104.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/105.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/106.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/107.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/108.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/109.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/110.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/111.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/112.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/113.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/114.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/115.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/116.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/117.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/118.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/119.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/120.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/121.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/122.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/123.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/124.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/125.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/126.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/127.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/128.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/129.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/130.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/131.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/132.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/133.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/134.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/73.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/75.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/76.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/77.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/78.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/79.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/80.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/81.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/82.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/83.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/85.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/86.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/87.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/88.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/89.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/90.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/91.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/92.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/93.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/94.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/95.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/96.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/97.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/98.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/emojis/99.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/detail.wpy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/html2json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/htmlparser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/showdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/wxDiscode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/wxParse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/wxParse.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wxParse/wxParse.wxss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/counter.wpy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/group.wpy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/groupitem.wpy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/list.wpy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/panel.wpy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/index.wpy" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app.js" afterPath="$PROJECT_DIR$/dist/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app.json" afterPath="$PROJECT_DIR$/dist/app.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app.wxss" afterPath="$PROJECT_DIR$/dist/app.wxss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/nav.js" afterPath="$PROJECT_DIR$/dist/components/nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/slide.js" afterPath="$PROJECT_DIR$/dist/components/slide.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/home.js" afterPath="$PROJECT_DIR$/dist/pages/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/home.wxml" afterPath="$PROJECT_DIR$/dist/pages/home.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.wpy" afterPath="$PROJECT_DIR$/src/app.wpy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nav.wpy" afterPath="$PROJECT_DIR$/src/components/nav.wpy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/project.config.json" afterPath="$PROJECT_DIR$/dist/project.config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/slide.wpy" afterPath="$PROJECT_DIR$/src/components/slide.wpy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home.wpy" afterPath="$PROJECT_DIR$/src/pages/home.wpy" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -177,8 +24,8 @@
       <file leaf-file-name="home.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/home.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="766">
+              <caret line="139" column="39" lean-forward="false" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
               <folding>
                 <element signature="n#scroll-view#1;n#view#0;n#template#0;n#!!top" expanded="false" />
                 <element signature="e#3047#3070#0" expanded="true" />
@@ -190,18 +37,18 @@
       <file leaf-file-name="app.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="-20">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.wpy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nav.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/nav.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="299">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -251,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slide.wpy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="slide.wpy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/slide.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="275">
+              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -286,12 +133,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/utils/index.js" />
-        <option value="$PROJECT_DIR$/src/components/slide.wpy" />
         <option value="$PROJECT_DIR$/src/app.wpy" />
         <option value="$PROJECT_DIR$/src/wxParse/wxParse.js" />
         <option value="$PROJECT_DIR$/src/pages/detail.wpy" />
-        <option value="$PROJECT_DIR$/src/pages/home.wpy" />
         <option value="$PROJECT_DIR$/src/components/nav.wpy" />
+        <option value="$PROJECT_DIR$/src/pages/home.wpy" />
+        <option value="$PROJECT_DIR$/src/components/slide.wpy" />
       </list>
     </option>
   </component>
@@ -418,12 +265,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521300964904</updated>
-      <workItem from="1521300966063" duration="9555000" />
+      <workItem from="1521300966063" duration="10104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9555000" />
+    <option name="totallyTimeSpent" value="10104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -491,14 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wxParse/wxParse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -509,10 +348,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/slide.wpy">
+    <entry file="file://$PROJECT_DIR$/src/components/nav.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="299">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -529,8 +376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="766">
+          <caret line="139" column="39" lean-forward="false" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
           <folding>
             <element signature="n#scroll-view#1;n#view#0;n#template#0;n#!!top" expanded="false" />
             <element signature="e#3047#3070#0" expanded="true" />
@@ -538,10 +385,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/nav.wpy">
+    <entry file="file://$PROJECT_DIR$/src/components/slide.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="275">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
         </state>
       </provider>
